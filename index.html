@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#">ANIL MADUGULA</a>
+            
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero-section text-white text-center">
+        <div class="container">
+            <h1>Welcome to My Portfolio</h1>
+            <p>I'm MADUGULA ANIL, a passionate developer.</p>
+        </div>
+    </header>
+
+    <!-- About Section -->
+    <section id="about" class="py-5 bg-light">
+        <div class="container">
+            <h2 class="text-center mb-4">About Me</h2>
+            <p>Hello! I’m MADUGULA ANIL, currently pursuing my M.Tech. I specialize in  HTML,CSS,JAVA SCRIPT and PYTHON. I enjoy building responsive and user-friendly web applications.</p>
+        </div>
+    </section>
+
+    
+    <section id="skills" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-4">Skills</h2>
+            <div class="row text-center">
+                <div class="col-md-4"><p><strong>HTML,CSS,JAVA SCRIPT</strong></p></div>
+                <div class="col-md-4"><p><strong>PYTHON</strong></p></div>
+                <div class="col-md-4"><p><strong>SQL,DATA STRUCTURES</strong></p></div>
+            </div>
+        </div>
+    </section>
+
+    
+    <section id="projects" class="py-5 bg-light">
+        <div class="container">
+            <h2 class="text-center mb-4">Projects</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card">
+                        <h3>project1</h3>
+                        <div class="card-body">
+                            <h4 class="card-title">Missing child Identification System using Deep leaning and SVM</h4>
+                            <p class="card-text">A web-based system addresses the issue of missing children in India by allowing the public to upload photos of suspected missing children. These images are compared with a database of registered missing children using a pre-trained CNN model like VGG-Face for facial recognition. The system processes the images, identifies potential matches, and displays results on the website, helping authorities and families trace missing children effectively</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <h4 >project2</h4>
+                        <div class="card-body">
+                            <h4 class="card-title">Doctor Appointment</h4>
+                            <p class="card-text">The Doctor Appointment System Website is a user-friendly, responsive platform designed to simplify the process of booking doctor appointments. It allows users to register, log in, and schedule appointments with ease. Built with a focus on rich UI/UX design, it includes features like contact forms, offer pages, and mobile-friendly layouts, ensuring accessibility and convenience for patients.</div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <h4><project3</h4>
+                        <div class="card-body">
+                            <h4 class="card-title">E-COMMERCE Website</h4>
+                            <p class="card-text"> Developed a fully functional e-commerce website designed to simulate an online shopping
+                                experience, showcasing proficiency in front-end web development and user interface design.Designed and implemented
+                                the user interface using HTML, CSS, and focusing on intuitive navigation and visually appealing product displaY</p>
+                        </div>
+                       </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
+    <section id="contact" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-4">Contact Me</h2>
+            <p>Feel free to reach out to me for collaboration </p>
+            <form action="mailto:your-email@example.com" method="POST" enctype="text/plain">
+                <div class="mb-3">
+                    <label for="name" class="form-label">Name</label>
+                    <input type="text" class="form-control" id="name" name="name">
+                </div>
+                <div class="mb-3">
+                    <label for="email" class="form-label">Email</label>
+                    <input type="email" class="form-control" id="email" name="email">
+                </div>
+                <div class="mb-3">
+                    <label for="message" class="form-label">Message</label>
+                    <textarea class="form-control" id="message" name="message" rows="3"></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Send</button>
+            </form>
+        </div>
+    </section>
+
+    
+    <footer class="bg-dark text-white text-center py-3">
+        &copy; 2024 Anil. All rights reserved.
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
